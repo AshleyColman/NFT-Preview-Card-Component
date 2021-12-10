@@ -1,0 +1,47 @@
+﻿@page
+@model UI.Pages.IndexModel
+@{
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>NFT Preview Card Component</title>
+    <meta name="description" content="NFT Preview Card Component" />
+    <meta name="author" content="Ashley Colman" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="images/favicon-32x32.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <section class="component">
+            <div class="content-wrapper">
+                <div class="main-image-container">
+                    <img class="main-image" src="images/image-equilibrium.jpg" alt="Equilibrium." />
+                </div>
+                <h1>Equilibrium #3429</h1>
+                <p class="description">Our Equilibrium collection promotes balance and calm.</p>
+                <div class="flex-space-between">
+                    <div class="icon-text-container">
+                        <img class="small-icon" src="images/icon-ethereum.svg" alt="Ethereum." />
+                        <h2>0.041 ETH</h2>
+                    </div>
+                    <div class="icon-text-container">
+                        <img class="small-icon" src="images/icon-clock.svg" alt="Clock." />
+                        <p>3 days left</p>
+                    </div>
+                </div>
+                <hr class="line" />
+                <div class="creator-container">
+                    <img class="creator-image" src="images/image-avatar.png" alt="Person smiling." />
+                    <p>Creation of <a class="link" href="#" title="View profile">Ashley Colman</a></p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Screenshots\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\images\favicon-32x32.png" />
+    <None Include="wwwroot\images\icon-clock.svg" />
+    <None Include="wwwroot\images\icon-ethereum.svg" />
+    <None Include="wwwroot\images\icon-view.svg" />
+    <None Include="wwwroot\images\image-avatar.png" />
+    <None Include="wwwroot\images\image-equilibrium.jpg" />
+  </ItemGroup>
+
+</Project>
